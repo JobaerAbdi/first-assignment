@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
 /*------------------------header section start---------------------------------*/
 .header-section{
     width: 100%;
@@ -25,6 +26,7 @@
 .header-discription{
     font-size: 16px;
     font-weight: 400;
+    line-height: 25px;
     color: #444343;
     margin: 25px 0;
 }
@@ -44,9 +46,181 @@
 
 
 /*--------------------------main section start*-----------------------------------------------*/
-.prev-year{
+/*--------------------------prev-year-information section start*------------------------------*/
+.prev-year-information{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 70px;
 }
+.heading-title{
+    font-size: 45px;
+    font-weight: bolder;
+    color: #151414;
+}
+.heading-discription{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    margin: 25px 0;
+    line-height: 25px;
+}
+.list-items{
+    line-height: 35px;
+}
+.list-items ol li{
+    margin-left: 20px;
+}
+/*--------------------------prev-year-information section end*------------------------------*/
+
+
+/*--------------------------plan section start*-----------------------------------------------*/
+.plans-section{
+    margin-top: 80px;
+}
+.plan-heading{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.all-plans{
+    display: flex;
+    justify-content: space-evenly;
+}
+.plan{
+    text-align: center;
+}
+.plan h1{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 13px 0;
+}
+.plan p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #716d6d;
+}
+/*--------------------------plan section end*-----------------------------------------------*/
+
+
+
+
+/*--------------------------success section start*-----------------------------------------------*/
+.success-section{
+    margin: 150px 0;
+}
+.success-title{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.success-container{
+    display: flex;
+    gap: 35px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.success-content{
+    margin-top: 50px;
+    padding-right: 120px; 
+}
+.success-description{
+    line-height: 25px;
+    margin-bottom: 25px;
+
+}
+.button{
+    background-color: rgb(37, 67, 67);
+}
+.success-image img{
+    width: 500px;
+    height: 500px;
+}
+/*--------------------------success section end*-----------------------------------------------*/
+
+
+
+/*--------------------------positive section start*-----------------------------------------------*/
+.positive-section{
+    background-image: linear-gradient(rgb(235, 91, 52), rgba(0, 0, 0, 0.2)) , url('../images/watch.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 120px;
+}
+.heading-btn-area{
+    padding: 60px 60px;
+}
+.positive-heading{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.btn-primary{
+    padding: 18px 30px;
+    color: orangered;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+
+}
+/*--------------------------positive section end*-----------------------------------------------*/
 /*--------------------------main section end*-----------------------------------------------*/
+
+
+/*--------------------------footer section start*-----------------------------------------------*/
+.footer-section{
+    display: flex;
+    justify-content: space-between; 
+    background-color: #151414;
+    padding: 90px 0;
+}
+.future-area{
+    margin-left: 150px;
+}
+.future-area h1{
+    color: #ffff;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 22px;
+}
+.future-area p{
+    color: #ffff;
+    font-size: 15px;
+    line-height: 25px;
+}
+.email-phone-area{
+    margin-top: 22px;
+}
+.email-phone-area p{
+    line-height: 40px;
+}
+.img-site img{
+    margin-right: 15px;
+    margin-top: 25px;
+}
+.input-area{
+    margin-right: 155px;
+}
+.input-area h1{
+    color: #ffff;
+    font-size: 23px;
+}
+.input-area input{
+    padding: 15px 45px;
+    background-color: #151414;
+    color: #ffff;
+    font-size: 17px;
+    font-weight: bolder;
+    border-radius: 6px solid white;
+    border-radius: 5px;
+    margin: 25px 0;
+}
+
+/*--------------------------footer section end*-----------------------------------------------*/
